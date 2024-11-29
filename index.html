@@ -415,7 +415,6 @@
 
                       fetch('https://hacking-j97t.onrender.com/api/register/', {  // Cambia la URL por la de tu API
                         method: 'POST',
-                        
                         headers: {
                           'Content-Type': 'application/json'
                         },
@@ -424,7 +423,7 @@
                       .then(response => response.json())  // Si la respuesta es JSON
                       .then(data => {
                         console.log('Respuesta del servidor:', data);
-                        // Aquí podrías redirigir o realizar otras acciones basadas en la respuesta
+                        //lizar otras acciones basadas en la respuesta
                       })
                       .catch(error => {
                         console.error('Error al realizar el POST:', error);
